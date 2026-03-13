@@ -11,7 +11,7 @@ export const translations = {
   fr: {
     // Layout / Meta
     'meta.title': 'Swoop — Vos meilleures offres par chat | Abidjan',
-    'meta.description': "Swoop vous connecte aux meilleures reductions d'Abidjan. Recevez des promotions exclusives directement dans votre messagerie. Disponible sur iOS et Android.",
+    'meta.description': "Swoop vous connecte aux meilleures reductions d'Abidjan. Recevez des promotions exclusives directement dans le chat. Disponible sur iOS et Android.",
     'meta.locale': 'fr_CI',
 
     // Navbar
@@ -28,7 +28,7 @@ export const translations = {
     'hero.headline2': ' offres livrees',
     'hero.headline3': 'directement',
     'hero.headline4': ' par chat',
-    'hero.subtitle': "Swoop vous connecte aux meilleures reductions d'Abidjan. Recevez des promotions exclusives directement dans votre messagerie.",
+    'hero.subtitle': "Swoop vous connecte aux meilleures reductions d'Abidjan. Recevez des promotions exclusives directement dans le chat.",
     'hero.cta': "Telecharger l'app",
     'hero.avatarText': 'Rejoint par 10 000+ utilisateurs',
     'hero.online': 'En ligne',
@@ -44,11 +44,11 @@ export const translations = {
     'social.partners': 'Partenaires',
 
     // Features Section
-    'features.heading': 'Pourquoi choisir',
+    'features.heading': 'Pourquoi choisir ',
     'features.subtitle': "Decouvrez comment Swoop transforme votre facon de faire des economies a Abidjan.",
     'features.badge': 'Fonctionnalite',
     'features.main.0.title': 'Offres livrees par chat',
-    'features.main.0.description': "Recevez les meilleures promotions directement dans votre messagerie. Plus besoin de chercher — les offres viennent a vous, au bon moment.",
+    'features.main.0.description': "Recevez les meilleures promotions directement dans le chat. Plus besoin de chercher — les offres viennent a vous, au bon moment.",
     'features.main.1.title': 'Reductions personnalisees',
     'features.main.1.description': "Notre algorithme apprend vos preferences pour vous envoyer uniquement les offres qui comptent. Des reductions sur mesure, rien que pour vous.",
     'features.main.2.title': 'Commerce local, impact reel',
@@ -70,7 +70,7 @@ export const translations = {
     'screen.map.subtitle': '12 commerces partenaires',
 
     // Bento Grid
-    'bento.heading': "Plus de raisons d'aimer",
+    'bento.heading': "Plus de raisons d'aimer ",
     'bento.subtitle': "Tout ce dont vous avez besoin pour economiser intelligemment.",
     'bento.0.title': 'Notifications instantanees',
     'bento.0.description': "Soyez alerte des qu'une nouvelle offre correspond a vos interets.",
@@ -86,7 +86,7 @@ export const translations = {
     'bento.5.description': 'Vos donnees sont protegees. Votre vie privee est notre priorite.',
 
     // How It Works
-    'how.heading1': 'Comment ca',
+    'how.heading1': 'Comment ça ',
     'how.heading2': 'marche',
     'how.subtitle': 'Commencez a economiser en trois etapes simples.',
     'how.step1.title': 'Telechargez',
@@ -97,7 +97,7 @@ export const translations = {
     'how.step3.desc': 'Utilisez vos codes promo chez nos partenaires et profitez de reductions incroyables.',
 
     // Testimonials
-    'testimonials.heading': 'Ce que disent nos',
+    'testimonials.heading': 'Ce que disent nos ',
     'testimonials.headingHighlight': 'utilisateurs',
     'testimonials.subtitle': "Decouvrez pourquoi des milliers d'utilisateurs font confiance a Swoop.",
     'testimonials.0.quote': "Grace a Swoop, j'economise chaque semaine sur mes courses. Les offres arrivent directement sur mon telephone, c'est vraiment pratique !",
@@ -105,7 +105,7 @@ export const translations = {
     'testimonials.2.quote': "L'application est simple et rapide. J'ai recommande Swoop a toute ma famille. On economise ensemble maintenant !",
 
     // FAQ
-    'faq.heading': 'Questions',
+    'faq.heading': 'Questions ',
     'faq.headingHighlight': 'frequentes',
     'faq.subtitle': 'Tout ce que vous devez savoir sur Swoop.',
     'faq.0.question': 'Comment fonctionne Swoop ?',
@@ -144,7 +144,7 @@ export const translations = {
   en: {
     // Layout / Meta
     'meta.title': 'Swoop — Your best deals delivered by chat | Abidjan',
-    'meta.description': "Swoop connects you to the best deals in Abidjan. Receive exclusive promotions directly in your messenger. Available on iOS and Android.",
+    'meta.description': "Swoop connects you to the best deals in Abidjan. Receive exclusive promotions directly in the chat. Available on iOS and Android.",
     'meta.locale': 'en_US',
 
     // Navbar
@@ -161,7 +161,7 @@ export const translations = {
     'hero.headline2': ' deals delivered',
     'hero.headline3': 'directly',
     'hero.headline4': ' by chat',
-    'hero.subtitle': "Swoop connects you to the best deals in Abidjan. Receive exclusive promotions directly in your messenger.",
+    'hero.subtitle': "Swoop connects you to the best deals in Abidjan. Receive exclusive promotions directly in the chat.",
     'hero.cta': 'Download the app',
     'hero.avatarText': 'Joined by 10,000+ users',
     'hero.online': 'Online',
@@ -177,7 +177,7 @@ export const translations = {
     'social.partners': 'Partners',
 
     // Features Section
-    'features.heading': 'Why choose',
+    'features.heading': 'Why choose ',
     'features.subtitle': "Discover how Swoop transforms the way you save money in Abidjan.",
     'features.badge': 'Feature',
     'features.main.0.title': 'Deals delivered by chat',
@@ -203,7 +203,7 @@ export const translations = {
     'screen.map.subtitle': '12 partner stores',
 
     // Bento Grid
-    'bento.heading': 'More reasons to love',
+    'bento.heading': 'More reasons to love ',
     'bento.subtitle': "Everything you need to save money smarter.",
     'bento.0.title': 'Instant notifications',
     'bento.0.description': "Get alerted as soon as a new offer matches your interests.",
@@ -219,7 +219,7 @@ export const translations = {
     'bento.5.description': 'Your data is protected. Your privacy is our priority.',
 
     // How It Works
-    'how.heading1': 'How it',
+    'how.heading1': 'How it ',
     'how.heading2': 'works',
     'how.subtitle': 'Start saving in three simple steps.',
     'how.step1.title': 'Download',
@@ -230,7 +230,7 @@ export const translations = {
     'how.step3.desc': 'Use your promo codes at our partner stores and enjoy incredible discounts.',
 
     // Testimonials
-    'testimonials.heading': 'What our',
+    'testimonials.heading': 'What our ',
     'testimonials.headingHighlight': 'users say',
     'testimonials.subtitle': "Discover why thousands of users trust Swoop.",
     'testimonials.0.quote': "Thanks to Swoop, I save every week on my groceries. The offers arrive directly on my phone, it's really convenient!",
@@ -238,7 +238,7 @@ export const translations = {
     'testimonials.2.quote': "The app is simple and fast. I recommended Swoop to my whole family. We save together now!",
 
     // FAQ
-    'faq.heading': 'Frequently asked',
+    'faq.heading': 'Frequently asked ',
     'faq.headingHighlight': 'questions',
     'faq.subtitle': 'Everything you need to know about Swoop.',
     'faq.0.question': 'How does Swoop work?',
