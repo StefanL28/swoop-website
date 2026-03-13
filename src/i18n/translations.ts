@@ -30,7 +30,7 @@ export const translations = {
     'hero.headline4': ' par chat',
     'hero.subtitle': "Swoop vous connecte aux meilleures reductions d'Abidjan. Recevez des promotions exclusives directement dans le chat.",
     'hero.cta': "Telecharger l'app",
-    'hero.avatarText': 'Rejoint par 10 000+ utilisateurs',
+    'hero.avatarText': "Rejoignez 200+ sur la liste d'attente",
     'hero.online': 'En ligne',
     'hero.chatGreeting': 'Salut ! Voici vos offres du jour 🔥',
     'hero.chatReply': 'La pizza ! 🤤',
@@ -38,10 +38,12 @@ export const translations = {
     'hero.writeMessage': 'Ecrivez un message...',
     'hero.saveUpTo': "Economisez jusqu'a",
 
-    // Social Proof
-    'social.users': 'Utilisateurs',
-    'social.offers': 'Offres',
-    'social.partners': 'Partenaires',
+    // Early Access
+    'earlyAccess.headline': 'Acces anticipee — Soyez parmi les premiers a economiser',
+    'earlyAccess.subtitlePre': 'Les 1 000 premiers utilisateurs obtiennent le ',
+    'earlyAccess.subtitleHighlight': 'statut VIP',
+    'earlyAccess.subtitlePost': ' a vie — toujours les premiers a recevoir les meilleures offres ✨',
+    'earlyAccess.cta': "Telecharger l'app",
 
     // Features Section
     'features.heading': 'Pourquoi choisir ',
@@ -80,8 +82,8 @@ export const translations = {
     'bento.2.description': 'Aucun frais, aucun abonnement. Economisez sans rien payer.',
     'bento.3.title': 'Partenaires verifies',
     'bento.3.description': 'Toutes nos offres proviennent de commerces locaux verifies.',
-    'bento.4.title': 'Offres quotidiennes',
-    'bento.4.description': 'De nouvelles promotions chaque jour pour ne jamais manquer une bonne affaire.',
+    'bento.4.title': 'Offres fraiches',
+    'bento.4.description': 'De nouvelles offres ajoutees regulierement — toujours quelque chose qui vaut le coup.',
     'bento.5.title': 'Securise',
     'bento.5.description': 'Vos donnees sont protegees. Votre vie privee est notre priorite.',
 
@@ -98,8 +100,8 @@ export const translations = {
 
     // Testimonials
     'testimonials.heading': 'Ce que disent nos ',
-    'testimonials.headingHighlight': 'utilisateurs',
-    'testimonials.subtitle': "Decouvrez pourquoi des milliers d'utilisateurs font confiance a Swoop.",
+    'testimonials.headingHighlight': 'premiers testeurs',
+    'testimonials.subtitle': "Decouvrez pourquoi nos premiers testeurs font confiance a Swoop.",
     'testimonials.0.quote': "Grace a Swoop, j'economise chaque semaine sur mes courses. Les offres arrivent directement sur mon telephone, c'est vraiment pratique !",
     'testimonials.1.quote': "Je decouvre des commerces pres de chez moi que je ne connaissais pas. Les reductions sont reelles et les commercants sont fiables.",
     'testimonials.2.quote': "L'application est simple et rapide. J'ai recommande Swoop a toute ma famille. On economise ensemble maintenant !",
@@ -124,7 +126,7 @@ export const translations = {
     // Final CTA
     'cta.heading1': 'Pret a',
     'cta.heading2': 'economiser',
-    'cta.subtitle': "Rejoignez des milliers d'utilisateurs a Abidjan qui economisent chaque jour grace a Swoop.",
+    'cta.subtitle': "Soyez parmi les premiers a Abidjan a economiser chaque jour avec Swoop.",
     'cta.appStore': 'Telecharger sur',
     'cta.googlePlay': 'Disponible sur',
 
@@ -163,7 +165,7 @@ export const translations = {
     'hero.headline4': ' by chat',
     'hero.subtitle': "Swoop connects you to the best deals in Abidjan. Receive exclusive promotions directly in the chat.",
     'hero.cta': 'Download the app',
-    'hero.avatarText': 'Joined by 10,000+ users',
+    'hero.avatarText': 'Join 200+ on the waitlist',
     'hero.online': 'Online',
     'hero.chatGreeting': "Hey! Here are today's deals 🔥",
     'hero.chatReply': 'The pizza! 🤤',
@@ -171,10 +173,12 @@ export const translations = {
     'hero.writeMessage': 'Write a message...',
     'hero.saveUpTo': 'Save up to',
 
-    // Social Proof
-    'social.users': 'Users',
-    'social.offers': 'Offers',
-    'social.partners': 'Partners',
+    // Early Access
+    'earlyAccess.headline': 'Early Access — Be among the first to save',
+    'earlyAccess.subtitlePre': 'First 1,000 users get ',
+    'earlyAccess.subtitleHighlight': 'VIP status',
+    'earlyAccess.subtitlePost': ' forever — always first to receive the best offers ✨',
+    'earlyAccess.cta': 'Download the app',
 
     // Features Section
     'features.heading': 'Why choose ',
@@ -213,8 +217,8 @@ export const translations = {
     'bento.2.description': 'No fees, no subscriptions. Save without paying anything.',
     'bento.3.title': 'Verified partners',
     'bento.3.description': 'All our offers come from verified local businesses.',
-    'bento.4.title': 'Daily offers',
-    'bento.4.description': 'New promotions every day so you never miss a great deal.',
+    'bento.4.title': 'Fresh offers',
+    'bento.4.description': 'New deals added regularly — always something worth checking out.',
     'bento.5.title': 'Secure',
     'bento.5.description': 'Your data is protected. Your privacy is our priority.',
 
@@ -231,8 +235,8 @@ export const translations = {
 
     // Testimonials
     'testimonials.heading': 'What our ',
-    'testimonials.headingHighlight': 'users say',
-    'testimonials.subtitle': "Discover why thousands of users trust Swoop.",
+    'testimonials.headingHighlight': 'early testers say',
+    'testimonials.subtitle': "Discover why our early testers trust Swoop.",
     'testimonials.0.quote': "Thanks to Swoop, I save every week on my groceries. The offers arrive directly on my phone, it's really convenient!",
     'testimonials.1.quote': "I discover shops near me that I didn't know about. The discounts are real and the merchants are reliable.",
     'testimonials.2.quote': "The app is simple and fast. I recommended Swoop to my whole family. We save together now!",
@@ -257,7 +261,7 @@ export const translations = {
     // Final CTA
     'cta.heading1': 'Ready to',
     'cta.heading2': 'save',
-    'cta.subtitle': "Join thousands of users in Abidjan who save every day with Swoop.",
+    'cta.subtitle': "Be among the first in Abidjan to save every day with Swoop.",
     'cta.appStore': 'Download on',
     'cta.googlePlay': 'Available on',
 

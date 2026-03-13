@@ -53,24 +53,3 @@ gsap.utils.toArray<HTMLElement>('[data-animate="bento-item"]').forEach((el, i) =
   });
 });
 
-// Count-up animation for stats
-gsap.utils.toArray<HTMLElement>('.count-up').forEach((el) => {
-  const target = parseInt(el.dataset.target || '0');
-
-  ScrollTrigger.create({
-    trigger: el,
-    start: 'top 90%',
-    onEnter: () => {
-      const obj = { value: 0 };
-      gsap.to(obj, {
-        value: target,
-        duration: 2,
-        ease: 'power2.out',
-        onUpdate: () => {
-          el.textContent = Math.floor(obj.value).toLocaleString('fr-FR');
-        },
-      });
-    },
-    once: true,
-  });
-});

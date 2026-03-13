@@ -1,27 +1,23 @@
 ---
+import Button from './ui/Button.astro';
 import { getLangFromUrl, useTranslations } from '../i18n/utils';
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
-
-const stats = [
-  { value: 10000, suffix: '+', label: t('social.users') },
-  { value: 500, suffix: '+', label: t('social.offers') },
-  { value: 50, suffix: '+', label: t('social.partners') },
-];
 ---
 
 <section class="py-12 bg-surface-alt border-y border-border">
   <div class="max-w-7xl mx-auto px-6 lg:px-8">
-    <div class="grid grid-cols-3 gap-8">
-      {stats.map(stat => (
-        <div class="text-center" data-animate="fade-up">
-          <p class="text-3xl md:text-4xl font-extrabold text-text-primary">
-            <span class="count-up" data-target={stat.value}>0</span>{stat.suffix}
-          </p>
-          <p class="text-sm md:text-base text-text-secondary font-medium mt-1">{stat.label}</p>
-        </div>
-      ))}
+    <div class="text-center" data-animate="fade-up">
+      <h2 class="text-2xl md:text-3xl font-extrabold">
+        <span class="text-gradient">{t('earlyAccess.headline')}</span>
+      </h2>
+      <p class="text-text-secondary mt-3 max-w-xl mx-auto">
+        {t('earlyAccess.subtitlePre')}<span class="font-semibold" style="color: #FFC107;">{t('earlyAccess.subtitleHighlight')}</span>{t('earlyAccess.subtitlePost')}
+      </p>
+      <div class="mt-6">
+        <Button href="#telecharger">{t('earlyAccess.cta')}</Button>
+      </div>
     </div>
   </div>
 </section>
